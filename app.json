@@ -22,7 +22,12 @@
       [
         "expo-web-browser",
         {
-          "webBrowserRedirectEnabled": true
+          "webBrowserRedirectEnabled": true,
+          "extra": {
+  "supabaseUrl": "https://your-project.supabase.co",
+  "supabaseAnonKey": "your-anon-key"
+}
+
         }
       ]
     ],
